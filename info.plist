@@ -21,34 +21,15 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>src256</string>
 	<key>description</key>
-	<string></string>
+	<string>search word by Logophile</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>Logophile</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>l</string>
-				<key>text</key>
-				<string>l</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -65,6 +46,25 @@
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>16039760-F173-4AB8-9C73-DA7401D5DE23</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>l</string>
+				<key>text</key>
+				<string>l</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2C99F6F1-EF16-4CF1-9762-5D05A1FFAA4D</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -85,6 +85,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/src256/alfred-logophile-workflow</string>
 </dict>
 </plist>
